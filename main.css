@@ -1,0 +1,148 @@
+/*= Main settings ================================================================*/
+
+body,h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin:0;
+  padding:0;
+  height:100%;
+}
+body, html {
+  height: 100%
+}
+hr{
+  border-color:#fff;
+  width:100%
+}
+
+/*= Navigation bar settings =====================================================*/
+
+.navi {
+  overflow: hidden;
+  background-color: #474c4f;
+}
+.navi a {
+  float: left;
+  font-family: 'Cutive Mono', monospace;
+  color: #bac3c6;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 30px;
+  font-size: 20px;
+}
+.navi a:hover {
+  background-color: #1c1f21;
+  color: #c8cc99;
+}
+.navi a:active {
+  background-color: #b1ba48;
+  color: black;
+}
+
+/*= Main page ====================================================================*/
+
+.head {
+  heigt:20px;
+  color:yellow;
+}
+.bgimg {
+  background-image: url('./img/bckgWM.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  overflow:scroll;
+}
+.display-middle{
+  position:absolute;
+  padding: 8% 25%
+}
+.maintxt {
+  font-family: 'Crimson Text', serif;
+  color:#2b4651;
+  font-size:16px;
+  text-align: left;
+  white-space: normal;
+}
+.aspan {
+  display: inline-block;
+  width: 160px;
+  font-family: 'Crimson Text', serif;
+  color:#2b4651;
+  font-size:14px;
+}
+.cspan {
+  font-family: 'Crimson Text', serif;
+  color:#2b4651;
+  font-size:14px;
+}
+
+/*= Publication page ==========================================================*/
+
+.bgblnk {
+  background-color: #d8d8d8;
+  height: 250%;
+  position:relative;
+}
+.midpub{
+  position:absolute;
+  top:10%;left:20%;
+  width:800px;
+  padding-bottom: 50px;
+}
+
+/*= Contact page ==============================================================*/
+
+.midcontact{
+  position:absolute;
+  top:15%;left:25%;
+  padding-bottom: 50px;
+}
+.container {
+    border-radius: 5px;
+    max-width: 500px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    width: 100%;
+}
+.txtcontact{
+  font-family: 'Roboto Mono', monospace;
+  color:#2a386d;
+  font-size:12px;
+  text-align: justify;
+  white-space: normal;
+}
+
+/*= Links page ================================================================*/
+
+.linkstxt {
+  font-family: 'Cutive Mono', monospace;
+  color:#2a386d;
+  font-size:20px;
+  text-align: left;
+  white-space: normal;
+}
+.linkset a:link {
+  color: #218cba;
+}
+.linkset a:visited {
+  color: #334796;
+}
+.linkset a:hover {
+  color: #91051a;
+}
+.linkset a:active {
+  color: blue;
+}
+
+/*= Footer=====================================================================*/
+
+.foot{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color:black;
+  text-align:left;
+  padding: 5px;
+  bottom:0;
+  width=100%;
+}
