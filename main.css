@@ -46,7 +46,7 @@ hr{
   color:yellow;
 }
 .bgimg {
-  background-image: url('./img/bckgWM.png');
+  background-image: url('./img/bckg.png');
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -59,7 +59,7 @@ hr{
 }
 .maintxt {
   font-family: 'Crimson Text', serif;
-  color:#2b4651;
+  color:#999999;
   font-size:16px;
   text-align: left;
   white-space: normal;
@@ -68,12 +68,12 @@ hr{
   display: inline-block;
   width: 160px;
   font-family: 'Crimson Text', serif;
-  color:#2b4651;
+  color:#6E6E6E;
   font-size:14px;
 }
 .cspan {
   font-family: 'Crimson Text', serif;
-  color:#2b4651;
+  color:#6E6E6E;
   font-size:14px;
 }
 
@@ -107,7 +107,7 @@ hr{
 }
 .txtcontact{
   font-family: 'Roboto Mono', monospace;
-  color:#2a386d;
+  color:#2E2EFE;
   font-size:12px;
   text-align: justify;
   white-space: normal;
